@@ -1,7 +1,7 @@
 package io.github.scaredsmods.morerecipeoutputapi.api;
 
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.registry.DynamicRegistryManager;
+import net.minecraft.registry.DynamicRegistryManager;
 
 
 public interface Output3Recipe {
