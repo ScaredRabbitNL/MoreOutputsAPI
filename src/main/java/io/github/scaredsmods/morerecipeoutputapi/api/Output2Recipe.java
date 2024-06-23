@@ -1,9 +1,8 @@
 package io.github.scaredsmods.morerecipeoutputapi.api;
 
 import net.minecraft.item.ItemStack;
-import net.minecraft.recipe.Ingredient;
-import net.minecraft.registry.DynamicRegistryManager;
-import net.minecraft.util.collection.DefaultedList;
+import net.minecraft.util.registry.DynamicRegistryManager;
+
 
 public interface Output2Recipe {
 
