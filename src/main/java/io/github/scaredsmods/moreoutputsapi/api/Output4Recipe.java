@@ -1,4 +1,4 @@
-package io.github.scaredsmods.morerecipeoutputapi.api;
+package io.github.scaredsmods.moreoutputsapi.api;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.DynamicRegistryManager;

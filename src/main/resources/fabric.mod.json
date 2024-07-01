@@ -8,26 +8,23 @@
 		"ScaredRabbitNL"
 	],
 	"contact": {
-		"homepage": "https://scaredsmods.github.io/",
+		"homepage": "https://scaredsmods.github.io/mods/more-outputs-api/",
 		"sources": "https://github.com/ScaredRabbitYT/MoreRecipeOutputAPI/"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/more-recipe-output-api/icon.png",
+	"license": "MIT",
+	"icon": "assets/more-outputs-api/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"io.github.scaredsmods.morerecipeoutputapi.MoreRecipeOutputAPI"
+			"io.github.scaredsmods.moreoutputsapi.MoreRecipeOutputAPI"
 		],
 		"fabric-datagen": [
-			"io.github.scaredsmods.morerecipeoutputapi.MoreRecipeOutputAPIDataGenerator"
+			"io.github.scaredsmods.moreoutputsapi.MoreRecipeOutputAPIDataGenerator"
 		]
 	},
-	"mixins": [
-		"more-recipe-output-api.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.20.6",
+		"minecraft": "~1.20",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
