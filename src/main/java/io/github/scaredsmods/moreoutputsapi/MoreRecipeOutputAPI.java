@@ -1,4 +1,4 @@
-package io.github.scaredsmods.morerecipeoutputapi;
+package io.github.scaredsmods.moreoutputsapi;
 
 import net.fabricmc.api.ModInitializer;
 
