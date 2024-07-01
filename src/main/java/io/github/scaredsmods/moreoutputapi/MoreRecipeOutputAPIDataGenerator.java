@@ -1,4 +1,4 @@
-package io.github.scaredsmods.morerecipeoutputapi;
+package io.github.scaredsmods.moreoutputapi;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

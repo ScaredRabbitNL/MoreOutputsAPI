@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "more-recipe-output-api",
+	"id": "more-output-api",
 	"version": "${version}",
-	"name": "More Recipe Output API",
+	"name": "More Output API",
 	"description": "Small, but powerful multi output recipe api",
 	"authors": [
 		"ScaredRabbitNL"
@@ -11,20 +11,25 @@
 		"homepage": "https://scaredsmods.github.io/",
 		"sources": "https://github.com/ScaredRabbitYT/MoreRecipeOutputAPI/"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/more-recipe-output-api/icon.png",
+	"license": "MIT",
+	"icon": "assets/more-output-api/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"io.github.scaredsmods.morerecipeoutputapi.MoreRecipeOutputAPI"
+			"io.github.scaredsmods.moreoutputapi.MoreRecipeOutputAPI"
 		],
 		"fabric-datagen": [
-			"io.github.scaredsmods.morerecipeoutputapi.MoreRecipeOutputAPIDataGenerator"
+			"io.github.scaredsmods.moreoutputapi.MoreRecipeOutputAPIDataGenerator"
 		]
+
+
 	},
-	"mixins": [
-		"more-recipe-output-api.mixins.json"
-	],
+
+	"custom": {
+		"modmenu": {
+			"badges": [ "library" ]
+		}
+	},
 	"depends": {
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.21",
