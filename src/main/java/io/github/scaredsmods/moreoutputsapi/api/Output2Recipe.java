@@ -2,7 +2,7 @@ package io.github.scaredsmods.moreoutputsapi.api;
 
 import net.minecraft.inventory.Inventory;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.registry.DynamicRegistryManager;
+import net.minecraft.registry.DynamicRegistryManager;
 
 
 public interface Output2Recipe<C extends Inventory> {
