@@ -1,17 +1,18 @@
 package io.github.scaredsmods.moreoutputsapi.api;
 
+import net.minecraft.inventory.Inventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.DynamicRegistryManager;
 
 
-public interface Output3Recipe {
+public interface Output3Recipe<C extends Inventory> {
 
 
 
     ItemStack getSecondResult(DynamicRegistryManager registryManager);
     ItemStack getThirdResult(DynamicRegistryManager registryManager);
 
-    ItemStack craftSecond(DynamicRegistryManager registryManager);
-    ItemStack craftThird(DynamicRegistryManager registryManager);
+    ItemStack craftSecond(C inventory, DynamicRegistryManager registryManager);
+    ItemStack craftThird(C inventory, DynamicRegistryManager registryManager);
 
 }
