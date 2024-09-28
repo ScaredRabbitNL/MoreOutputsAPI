@@ -1,8 +1,9 @@
 package io.github.scaredsmods.moreoutputsapi.neoforge;
 
-import net.neoforged.fml.common.Mod;
+
 
 import io.github.scaredsmods.moreoutputsapi.MoreOutputsAPI;
+import net.neoforged.fml.common.Mod;
 
 @Mod(MoreOutputsAPI.MOD_ID)
 public final class MoreOutputsAPINeoForge {
