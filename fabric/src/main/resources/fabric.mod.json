@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "more_outputs_api",
+  "version": "${version}",
+  "name": "MoreOutputsAPI",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/more_outputs_api/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.scaredsmods.moreoutputsapi.fabric.MoreOutputsAPIFabric"
+    ],
+    "client": [
+      "io.github.scaredsmods.moreoutputsapi.fabric.client.ExampleModFabricClient"
+    ]
+  },
+  "mixins": [
+    "more_outputs_api.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "architectury": ">=13.0.2",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
